@@ -11,6 +11,8 @@ The code supports reproducible evaluation of a **fully model-free, multi-agent
 reinforcement learning (MARL)** framework for coordinated voltage regulation and
 energy management in low-voltage hybrid AC/DC microgrids.
 
+[![DOI](https://zenodo.org/badge/1125365622.svg)](https://doi.org/10.5281/zenodo.18098092)
+
 ---
 
 ## Overview
@@ -51,4 +53,4 @@ and extension with proper attribution.
 If you use this code, please cite the WCAIAA 2026 paper associated with this repository."# D3QN_MARL_ACDC_SmartCity_Microgrids" 
 
 
-[![DOI](https://zenodo.org/badge/1125365622.svg)](https://doi.org/10.5281/zenodo.18098092)
+
