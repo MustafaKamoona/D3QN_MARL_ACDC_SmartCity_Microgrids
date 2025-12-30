@@ -49,3 +49,6 @@ This project is released under the MIT License, allowing reuse, modification,
 and extension with proper attribution.
 
 If you use this code, please cite the WCAIAA 2026 paper associated with this repository."# D3QN_MARL_ACDC_SmartCity_Microgrids" 
+
+
+[![DOI](https://zenodo.org/badge/1125365622.svg)](https://doi.org/10.5281/zenodo.18098092)
