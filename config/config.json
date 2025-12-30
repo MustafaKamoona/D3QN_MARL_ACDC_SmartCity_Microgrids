@@ -1,0 +1,35 @@
+{
+  "simulation": {
+    "dt_seconds": 300,
+    "horizon_steps": 288,
+    "seed": 123
+  },
+  "microgrid": {
+    "buses": ["A", "B", "C"],
+    "dc_bus_v": 720.0,
+    "v_nom_ll": 400.0,
+    "pv_max_kw": 80.0,
+    "battery": {
+      "capacity_kwh": 200.0,
+      "soc_init": 0.6,
+      "p_max_kw": 80.0,
+      "eta_ch": 0.95,
+      "eta_dis": 0.95
+    }
+  },
+  "rl": {
+    "agents": ["A_ctrl", "B_ctrl", "C_ctrl", "EMS"],
+    "discrete_actions": 9,
+    "epsilon": 0.2,
+    "gamma": 0.99
+  },
+  "weights": {
+    "voltage_dev": 1.0,
+    "thd_proxy": 0.3,
+    "energy_cost": 0.7,
+    "co2": 0.5
+  },
+  "paths": {
+    "profiles_csv": "data/profiles/smartcity_24h_profiles.csv"
+  }
+}

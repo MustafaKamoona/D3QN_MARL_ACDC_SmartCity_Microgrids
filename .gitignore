@@ -1,0 +1,21 @@
+# Python cache
+__pycache__/
+*.pyc
+*.pyo
+
+# Virtual environments
+venv/
+.env/
+
+# IDE / editor
+.vscode/
+.idea/
+.history/
+
+# Training artifacts
+checkpoints/
+logs/
+
+# OS
+.DS_Store
+Thumbs.db
